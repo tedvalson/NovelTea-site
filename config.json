@@ -1,0 +1,18 @@
+{
+	"output_dir": "html",
+	
+	"paginator": {
+		"posts_path": "posts",
+		"items_per_page": 2,
+		"layout": "layout/post.tmpl",
+		"permalink": "/:num/"
+	},
+
+	"site": {
+		"name": "NovelTea",
+		"description": "NovelTea is a game engine.",
+		"url": "https://tedvalson.github.io/NovelTea-site",
+		"author": "Thomas Edvalson",
+		"avatar": "https://avatars2.githubusercontent.com/u/383999"
+	}
+}

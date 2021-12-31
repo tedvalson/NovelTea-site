@@ -10,16 +10,19 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2.3.1
 
-      - name: Install and Build
+      - name: Install Dependencies
         run: |
-          mv static output
-          cp test.html output/index.html
+          pip install markdown jinja2
+          
+      - name: Build
+        run: |
+          make
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.7
         with:
           branch: gh-pages
-          folder: output
+          folder: html
           single-commit: true
           commit-message: Auto-deploy
           clean: true
