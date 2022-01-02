@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 from jinja2 import Environment, PackageLoader, TemplateNotFound
-import datetime, json, markdown, os, shutil
+import datetime, json, markdown, os, shutil, sys
 import paginator
 
 
@@ -17,11 +17,10 @@ config = {
 		'layout': 'layout/post.tmpl'
 	},
 	'site': {
-		'url': 'http://site.com'
+		'domain': 'http://site.com',
+		'base_url': ''
 	}
 }
-
-config_filename = 'config.json'
 
 
 def fread(filename):
@@ -57,7 +56,8 @@ def purge():
 	shutil.copytree('static', d)
 
 
-def main():
+def main(debug = False):
+	config_filename = 'config_debug.json' if debug else 'config.json'
 	if os.path.isfile(config_filename):
 		config.update(json.loads(fread(config_filename)))
 	root = os.path.dirname(os.path.abspath(__file__))
@@ -68,7 +68,8 @@ def main():
 	env.filters['date'] = filter_date
 	env.filters['xml_escape'] = filter_xml_escape
 	env.filters['date_to_xmlschema'] = filter_date_to_xmlschema
-	
+
+	config['site']['debug'] = debug
 	config['site']['posts'] = []
 	
 	page_templates = []
@@ -104,4 +105,5 @@ def main():
 
 
 if __name__ == '__main__':
-	main()
+	debug = len(sys.argv) > 1 and sys.argv[1] == 'debug'
+	main(debug)

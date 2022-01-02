@@ -11,8 +11,8 @@
 	"site": {
 		"name": "NovelTea",
 		"description": "NovelTea is a game engine.",
-		"domain": "https://tedvalson.github.io",
-		"base_url": "/NovelTea-site",
+		"domain": "http://127.0.0.1:8000",
+		"base_url": "",
 		"author": "Thomas Edvalson",
 		"avatar": "https://avatars2.githubusercontent.com/u/383999"
 	}
