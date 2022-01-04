@@ -1,4 +1,29 @@
-<h1>Website</h1>
-<p>
-This is a <a href="page">link</a> to a test page.
-</p>
+{% set paginate = true %}
+{% extends "layout/index.tmpl" %}
+{% block content %}
+
+<div class="well">
+	<b>What is NovelTea?</b> It is a cross-platform game engine for interactive fiction with a focus on Android/iOS.
+</div>
+
+{% if paginator %}
+{% include "inc/pagination.tmpl" %}
+
+{% for post in paginator.posts %}
+<article class="post">
+    <img class="post-thumb" src="{{ post.image }}" />
+    <h2><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a> <small class="date">{{ post.date | date("%B %e, %Y") }}</small></h2>
+    <div class="entry">
+    	{% if post.description %}
+			{{ post.description }}
+    	{% else %}
+        	{{ post.content | striptags | truncate(160)}} <a href="{{ site.base_url }}{{ post.url }}" class="read-more">Read More &raquo;</a>
+    	{% endif %}
+    </div>
+</article>
+{% endfor %}
+
+{% include "inc/pagination.tmpl" %}
+{% endif %}
+
+{% endblock content %}

@@ -41,13 +41,13 @@ class Page(object):
 			layout = self._vars.get('layout', '')
 			if layout != '':
 				t = self._env.get_template(layout)
-				if meta.has_key('content'):
+				if 'content' in meta:
 					print('  Warning: Defined variable "content" is not allowed with "layout".')
 				self.url = self.get_permalink()
-				self._vars['content'] = t.render(self._vars)
+				self._vars['output'] = t.render(self._vars)
 		else:
 			self.url = self.get_permalink()
-			self._vars['content'] = self._template.render(self._vars)
+			self._vars['output'] = self._template.render(self._vars)
 			
 	def get(self, key, default):
 		return self._vars.get(key, default)
@@ -74,7 +74,7 @@ class Page(object):
 		else:
 			url = getattr(self, 'permalink', '')
 			if url == '':
-				self.permalink = self.name[:self.name.rfind('.')]
+				self.permalink = '/' + self.name[:self.name.rfind('.')]
 			elif url.startswith('/'):
 				self.permalink = url
 			else:
@@ -104,7 +104,7 @@ class Page(object):
 	def save(self, filename = ''):
 		if filename == '':
 			filename = self.get_filename()
-		fwrite(filename, self.get('content', ''))
+		fwrite(filename, self.get('output', ''))
 
 
 class Paginator(object):
@@ -119,7 +119,7 @@ class Paginator(object):
 		template_name = page.name
 		self.pages = []
 		self.all_posts = posts
-		self.page_count = 1 + (len(posts) - 1) / items_per_page
+		self.page_count = 1 + int((len(posts) - 1) / items_per_page)
 		
 		for i in range(1, self.page_count + 1):
 			start = (i - 1) * items_per_page

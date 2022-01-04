@@ -1,0 +1,72 @@
+body {
+    padding-bottom: 80px;
+}
+
+#logo {
+    margin: 5px 0;
+}
+#logo img {
+	max-width: 94%;
+	margin: 0 3%;
+}
+#pages #logo {
+    display: inline-block;
+}
+#pages #logo img {
+	max-height: 50px;
+	max-width: 94%;
+	margin: 0 3%;
+}
+
+#nav {
+    display: inline-block;
+}
+#index #nav {
+    margin: 10px 0;
+}
+#pages #nav {
+    /*margin: 5px 0;*/
+}
+#nav .active a {
+    background-color: transparent;
+    color: #AAA;
+}
+
+#screenshots {
+    text-align: center;
+    padding: 25px 0;
+    background-color: #CCC;
+}
+#screenshots img {
+    transition: all 0.5s;
+    outline: 4px solid transparent;
+    opacity: 1.0;
+    margin: 3px 0;
+}
+#screenshots img:hover {
+    outline: 4px solid #AAA;
+    background-color: #AAA;
+    opacity: 0.8;
+}
+.featherlight-content {
+    background-color: #999 !important;
+}
+
+.title {
+    padding: 5px 0;
+    margin-top: 0;
+    background-color: #F3F3F3;
+}
+
+.container {
+    max-width: 750px;
+}
+
+.post-meta {
+    display: block;
+    text-align: right;
+}
+.smword {
+    font-size: 80%;
+    color: #999;
+}

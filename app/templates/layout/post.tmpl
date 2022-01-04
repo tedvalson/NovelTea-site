@@ -1,0 +1,12 @@
+{% extends "layout/page.tmpl" %}
+
+{% block content %}
+<p class="post-meta">
+    <span class="smword">by</span>
+    <span rel="author">{{ page.author }}</span>
+    <span class="smword">on</span>
+    <span>{{ page.date | date("%B %e, %Y") }}</span>
+</p>
+
+{{ page.content }}
+{% endblock content %}

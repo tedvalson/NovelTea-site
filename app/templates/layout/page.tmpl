@@ -1,0 +1,17 @@
+{% include "inc/header.tmpl" %}
+
+<div id="pages">
+	<div class="text-center">
+		<div id="logo">
+			<a href="{{ site.base_url }}/"><img alt="NovelTea" src="{{ site.base_url }}/img/noveltea.png" /></a>
+		</div>
+	    {% include "inc/nav.tmpl" %}
+	</div>
+
+	<h1 class="title text-center">{{ title }}</h1>
+	<div class="container">
+		{% block content %}{{ content }}{% endblock %}
+	</div>
+</div>
+
+{% include "inc/footer.tmpl" %}

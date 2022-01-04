@@ -1,0 +1,27 @@
+{% if paginator.page_count > 1 %}
+<div class="pagination-centered">
+<ul class="pagination">
+    {% if paginator.page > 1 %}
+        <li class="arrow"><a href="{{ site.base_url }}{{ paginator.prev_permalink }}">&laquo;</a></li>
+    {% else %}
+        <li class="arrow unavailable"><a href="">&laquo;</a></li>
+    {% endif %}
+
+    {% for page in range(1, paginator.page_count + 1) %}
+        {% if page == paginator.page %}
+            <li class="current"><a href="">{{ page }}</a></li>
+        {% elif page == 1 %}
+            <li><a href="{{ site.base_url }}{{ paginator.first_permalink }}">1</a></li>
+        {% else %}
+            <li><a href="{{ site.base_url }}{{ paginator.permalink | replace(':num', page) }}">{{ page }}</a></li>
+        {% endif %}
+    {% endfor %}
+
+    {% if paginator.page < paginator.page_count %}
+        <li class="arrow"><a href="{{ site.base_url }}{{ paginator.next_permalink }}">&raquo;</a></li>
+    {% else %}
+        <li class="arrow unavailable"><a href="">&raquo;</a></li>
+    {% endif %}
+</ul>
+</div>
+{% endif %}
