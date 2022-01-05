@@ -1,4 +1,4 @@
-import datetime, markdown, os
+import datetime, markdown, os, re
 
 
 def fwrite(filename, text):
@@ -13,10 +13,15 @@ def fwrite(filename, text):
 class Page(object):
 	
 	def __init__(self, env, config, template_name):
+		date_slug = os.path.basename(template_name).split('.')[0]
+		match = re.search(r'^(?:(\d\d\d\d-\d\d-\d\d)-)?(.+)$', date_slug)
+		date_str = match.group(1) or '1970-01-01'
+		
 		self.name = template_name
-		self.permalink = ''
-		self.date = datetime.datetime.now() #TODO
+		self.date = datetime.datetime.strptime(date_str, '%Y-%m-%d')
+		self.permalink = match.group(2)
 		self._filename = ''
+		self._permalink = ''
 		self._template = env.get_template(template_name)
 		self._config = config
 		self._env = env
@@ -65,23 +70,23 @@ class Page(object):
 		return r
 
 	def get_permalink(self, use_cache = True):
-		if use_cache and self.permalink != '':
-			return self.permalink
+		if use_cache and self._permalink != '':
+			return self._permalink
 		elif self.name == 'index.html':
-			self.permalink = '/'
+			self._permalink = '/'
 		elif self.name.endswith('.xml'):
-			self.permalink = '/' + self.name
+			self._permalink = '/' + self.name
 		else:
 			url = getattr(self, 'permalink', '')
 			if url == '':
-				self.permalink = '/' + self.name[:self.name.rfind('.')]
+				self._permalink = '/' + self.name[:self.name.rfind('.')]
 			elif url.startswith('/'):
-				self.permalink = url
+				self._permalink = url
 			else:
 				# Permalinks are relative if they don't start with '/'
 				d = os.path.dirname(self.name)
-				self.permalink = os.path.join(d, url)
-		return self.permalink
+				self._permalink = os.path.join(d, url)
+		return self._permalink
 		
 	def get_filename(self, use_cache = True):
 		if use_cache and self._filename != '':
@@ -112,8 +117,9 @@ class Paginator(object):
 	def __init__(self, env, config, page, posts):
 		self.permalink = config['paginator']['permalink']
 		self.first_permalink = page.get_permalink()
-			
-		# TODO: sort posts by date?
+		
+		# Sort by date
+		posts.sort(key = lambda x:x.date, reverse=True)
 
 		items_per_page = config['paginator']['items_per_page']
 		template_name = page.name
@@ -125,7 +131,7 @@ class Paginator(object):
 			start = (i - 1) * items_per_page
 			end = i * items_per_page
 			self.posts = posts[start:end]
-			print('  Doing page {}... {}'.format(i, self.posts))
+			print('  Doing page {} of {}'.format(i, self.page_count))
 
 			page = Page(env, config, template_name)
 			self.page = i
