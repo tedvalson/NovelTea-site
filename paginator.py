@@ -19,7 +19,7 @@ class Page(object):
 		
 		self.name = template_name
 		self.date = datetime.datetime.strptime(date_str, '%Y-%m-%d')
-		self.permalink = match.group(2)
+		self.permalink = '/' + match.group(2)
 		self._filename = ''
 		self._permalink = ''
 		self._template = env.get_template(template_name)
