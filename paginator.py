@@ -19,7 +19,7 @@ class Page(object):
 		
 		self.name = template_name
 		self.date = datetime.datetime.strptime(date_str, '%Y-%m-%d')
-		self.permalink = '/' + match.group(2)
+		self.permalink = match.group(2)
 		self._filename = ''
 		self._permalink = ''
 		self._template = env.get_template(template_name)
@@ -85,7 +85,7 @@ class Page(object):
 			else:
 				# Permalinks are relative if they don't start with '/'
 				d = os.path.dirname(self.name)
-				self._permalink = os.path.join(d, url)
+				self._permalink = '/' + os.path.join(d, url)
 		return self._permalink
 		
 	def get_filename(self, use_cache = True):

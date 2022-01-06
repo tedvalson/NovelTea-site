@@ -99,7 +99,7 @@ def main(debug = False):
 			pages.append(page)
 	
 	for page in posts + pages:
-		print(page.name)
+		print(page.name, page.url)
 		print(page.get_filename())
 		page.save()
 
