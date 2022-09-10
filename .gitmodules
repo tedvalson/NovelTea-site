@@ -1,0 +1,3 @@
+[submodule "cruelpages"]
+	path = cp
+	url = https://github.com/tedvalson/cruelpages.git

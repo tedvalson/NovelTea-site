@@ -1,8 +1,8 @@
 gen:
-	./generate.py
+	./cp/generate.py
 
 debug:
-	./generate.py debug
+	./cp/generate.py debug
 
 serve: debug
 	cd html && python3 -m http.server
