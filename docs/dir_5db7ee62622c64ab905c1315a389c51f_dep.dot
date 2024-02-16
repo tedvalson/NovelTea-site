@@ -1,0 +1,15 @@
+digraph "include/NovelTea/SFML" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_52c2ed606da51a5aae4b083c568b1a72 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="NovelTea" fontname="Helvetica", fontsize="10", URL="dir_52c2ed606da51a5aae4b083c568b1a72.htm"]
+  dir_26eb908cb03b21fa4987bcdd8f03fa69 [shape=box label="GUI" color="red" URL="dir_26eb908cb03b21fa4987bcdd8f03fa69.htm"];
+  dir_cdfb63e9b8f4ba8ab8385e24020efd9c [shape=box label="States" URL="dir_cdfb63e9b8f4ba8ab8385e24020efd9c.htm"];
+  dir_5db7ee62622c64ab905c1315a389c51f [shape=box, label="SFML", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_5db7ee62622c64ab905c1315a389c51f.htm"];
+  }
+  dir_5db7ee62622c64ab905c1315a389c51f->dir_26eb908cb03b21fa4987bcdd8f03fa69 [headlabel="1", labeldistance=1.5 headhref="dir_000007_000004.htm"];
+  dir_5db7ee62622c64ab905c1315a389c51f->dir_cdfb63e9b8f4ba8ab8385e24020efd9c [headlabel="1", labeldistance=1.5 headhref="dir_000007_000008.htm"];
+  dir_cdfb63e9b8f4ba8ab8385e24020efd9c->dir_26eb908cb03b21fa4987bcdd8f03fa69 [headlabel="15", labeldistance=1.5 headhref="dir_000008_000004.htm"];
+}

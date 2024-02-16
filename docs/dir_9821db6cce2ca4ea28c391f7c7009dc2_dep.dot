@@ -1,0 +1,10 @@
+digraph "include/NovelTea/GUI/TextLog" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_26eb908cb03b21fa4987bcdd8f03fa69 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="GUI" fontname="Helvetica", fontsize="10", URL="dir_26eb908cb03b21fa4987bcdd8f03fa69.htm"]
+  dir_9821db6cce2ca4ea28c391f7c7009dc2 [shape=box, label="TextLog", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_9821db6cce2ca4ea28c391f7c7009dc2.htm"];
+  }
+}

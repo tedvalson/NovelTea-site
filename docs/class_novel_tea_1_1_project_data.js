@@ -1,0 +1,27 @@
+var class_novel_tea_1_1_project_data =
+[
+    [ "ProjectData", "class_novel_tea_1_1_project_data.htm#ad45cf53b8bae311b6dac1704156c6646", null ],
+    [ "ProjectData", "class_novel_tea_1_1_project_data.htm#a2b1a3fc61f2812f0167a7d4db155e501", null ],
+    [ "~ProjectData", "class_novel_tea_1_1_project_data.htm#ab32cf4e981b335787d5e953a923521fa", null ],
+    [ "clearFilename", "class_novel_tea_1_1_project_data.htm#aad0232549e2f87111a2f4d8ef03da81c", null ],
+    [ "closeProject", "class_novel_tea_1_1_project_data.htm#ab84217f5c08c69aad89b6e0b46c2c2d6", null ],
+    [ "data", "class_novel_tea_1_1_project_data.htm#a00e7161f7cb78ae98a95290d2e400c1d", null ],
+    [ "data", "class_novel_tea_1_1_project_data.htm#a5120cf265ab84e9a0ebb270e4703a5b8", null ],
+    [ "fileName", "class_novel_tea_1_1_project_data.htm#aa95312487cdd0aeb93f4092fe3a23596", null ],
+    [ "fromJson", "class_novel_tea_1_1_project_data.htm#ac7a67c986889b8d49edc309ea90f4e1b", null ],
+    [ "get", "class_novel_tea_1_1_project_data.htm#a8496818fe25d949b9ea87bcaa28455c6", null ],
+    [ "getFontData", "class_novel_tea_1_1_project_data.htm#aa9a7a0c7b4f5bb736c3068fe060909d4", null ],
+    [ "getImageData", "class_novel_tea_1_1_project_data.htm#a2b0ccd0511567540e6f6727cac6b044e", null ],
+    [ "getTextureData", "class_novel_tea_1_1_project_data.htm#a976dcab3efc7a48461fe6134fb556ef9", null ],
+    [ "isLoaded", "class_novel_tea_1_1_project_data.htm#ac83d578647fe81c633a5dad0f9eff96f", null ],
+    [ "isValid", "class_novel_tea_1_1_project_data.htm#affd88a5579f2a2d3bf8b8e22b9a88407", null ],
+    [ "loadFromFile", "class_novel_tea_1_1_project_data.htm#a93026a24b72f3c4b8887ec0f7fb41f0e", null ],
+    [ "newProject", "class_novel_tea_1_1_project_data.htm#a7e62a0db49ecf807c55242ca36c528ea", null ],
+    [ "renameEntity", "class_novel_tea_1_1_project_data.htm#a1554b25702d8ec31538d47fa172f06f2", null ],
+    [ "saveToFile", "class_novel_tea_1_1_project_data.htm#a95a383c0faa0d06f05298cd6bf0d0545", null ],
+    [ "set", "class_novel_tea_1_1_project_data.htm#acef695c577644d94f5af960bc2ac0938", null ],
+    [ "setFontData", "class_novel_tea_1_1_project_data.htm#a1291053bea512d55587ec1ae13ba8d57", null ],
+    [ "setImageData", "class_novel_tea_1_1_project_data.htm#a2ce8bc49cd9938e4c6876c29b2677b74", null ],
+    [ "setTextureData", "class_novel_tea_1_1_project_data.htm#aa35203fd772e9d0eeb1bf40e01cca8bb", null ],
+    [ "toJson", "class_novel_tea_1_1_project_data.htm#a559d5ed3a3bf613cf670677ee92c8c59", null ]
+];

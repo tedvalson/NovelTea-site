@@ -1,0 +1,25 @@
+var class_novel_tea_1_1_text_overlay =
+[
+    [ "TextOverlay", "class_novel_tea_1_1_text_overlay.htm#a4d8c4d700578f6356451181c539dbbd8", null ],
+    [ "draw", "class_novel_tea_1_1_text_overlay.htm#a912fca6812d7a7f113fb7e5482bb4088", null ],
+    [ "ensureUpdate", "class_novel_tea_1_1_text_overlay.htm#a899e4ee255d306dd56c7e32bda434eb5", null ],
+    [ "getAlpha", "class_novel_tea_1_1_text_overlay.htm#a361a48f69a0c552c23b334af7e005527", null ],
+    [ "getFontSizeMultiplier", "class_novel_tea_1_1_text_overlay.htm#afd6675b93c3b34cda676b1adef8645d8", null ],
+    [ "getGlobalBounds", "class_novel_tea_1_1_text_overlay.htm#aadc7b970324576e7b9c824ae15c95b68", null ],
+    [ "getLocalBounds", "class_novel_tea_1_1_text_overlay.htm#acca5262f016c38adc1f88ebcabcdc766", null ],
+    [ "getScroll", "class_novel_tea_1_1_text_overlay.htm#af5405c5077df6c5051546c6a5be26b7c", null ],
+    [ "getScrollSize", "class_novel_tea_1_1_text_overlay.htm#a40d33666be3602fd87e354c634e368d3", null ],
+    [ "getSize", "class_novel_tea_1_1_text_overlay.htm#a811a75d11c27d308b6e3f9be5b518860", null ],
+    [ "gotoNextString", "class_novel_tea_1_1_text_overlay.htm#adfbed9cf24bbbf1495ec826ec5ee95ef", null ],
+    [ "hide", "class_novel_tea_1_1_text_overlay.htm#a095f3a3994ec47597bf98b2dd9276643", null ],
+    [ "processEvent", "class_novel_tea_1_1_text_overlay.htm#a9593fb26b5f57bfbbd2ded7d56198747", null ],
+    [ "repositionText", "class_novel_tea_1_1_text_overlay.htm#a264858ba5cdf2a9274edbb8a87b53859", null ],
+    [ "setAlpha", "class_novel_tea_1_1_text_overlay.htm#a8a0b1ae185cb55f4a6ede8daee5239e9", null ],
+    [ "setFontSizeMultiplier", "class_novel_tea_1_1_text_overlay.htm#aeccdf855f524e92946e73d167f19fb30", null ],
+    [ "setScroll", "class_novel_tea_1_1_text_overlay.htm#a90b0125440240c432c78e312155ec249", null ],
+    [ "setSize", "class_novel_tea_1_1_text_overlay.htm#a44181be7cf66124f82523bace995018e", null ],
+    [ "setText", "class_novel_tea_1_1_text_overlay.htm#a188e1f15937eb8f5eb6a7615d6c1314e", null ],
+    [ "setTextArray", "class_novel_tea_1_1_text_overlay.htm#aa0dda62cccdf65ee09ac3f420fb78be1", null ],
+    [ "show", "class_novel_tea_1_1_text_overlay.htm#aef7e0bdfc9e9a28c549c076ca0139429", null ],
+    [ "update", "class_novel_tea_1_1_text_overlay.htm#a2090bf8b6e69b44d5c9ee1b9fa0b0a6d", null ]
+];

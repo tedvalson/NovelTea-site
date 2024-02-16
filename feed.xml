@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>NovelTea</title>
+        <description>NovelTea is a game engine.</description>
+        <link>https://tedvalson.github.io/NovelTea-site</link>
+        <atom:link href="https://tedvalson.github.io/NovelTea-site/feed.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Test Post</title>
+            
+            
+            <description><h3>This is just a test.</h3>
+<p>Don't panic.</p></description>
+            
+            <pubDate>Sat, 01 Jan 2022 00:00:00 </pubDate>
+            <link>https://tedvalson.github.io/NovelTea-sitetest-post</link>
+            <guid isPermaLink="true">https://tedvalson.github.io/NovelTea-sitetest-post</guid>
+        </item>
+        
+        <item>
+            <title>Test Post</title>
+            
+            
+            <description><h3>This is just a test.</h3>
+<p>Don't panic.</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6
+7
+8</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="k">def</span> <span class="nf">test</span><span class="p">(</span><span class="n">arg</span> <span class="o">=</span> <span class="bp">True</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;hello&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">test</span><span class="p">(</span><span class="n">arg</span> <span class="o">=</span> <span class="bp">True</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;hello&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">test</span><span class="p">(</span><span class="n">arg</span> <span class="o">=</span> <span class="bp">True</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;hello&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">test</span><span class="p">(</span><span class="n">arg</span> <span class="o">=</span> <span class="bp">True</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;hello&#39;</span><span class="p">)</span>
+</pre></div>
+</td></tr></table>
+<div class="codehilite"><pre><span></span><span class="nx">global</span><span class="p">.</span><span class="nx">gAddInv</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">object</span><span class="p">,</span> <span class="nx">message</span><span class="p">)</span> <span class="p">{</span>
+<span class="hll">    <span class="k">if</span> <span class="p">(</span><span class="k">typeof</span> <span class="nx">object</span> <span class="o">==</span> <span class="s1">&#39;string&#39;</span><span class="p">)</span>
+</span>        <span class="nx">object</span> <span class="o">=</span> <span class="nx">lObject</span><span class="p">(</span><span class="nx">object</span><span class="p">);</span>
+    <span class="c1">// Test comment</span>
+    <span class="nx">Game</span><span class="p">.</span><span class="nx">inventory</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="nx">object</span><span class="p">);</span>
+<span class="hll">    <span class="k">if</span> <span class="p">(</span><span class="k">typeof</span> <span class="nx">message</span> <span class="o">===</span> <span class="s1">&#39;undefined&#39;</span><span class="p">)</span>
+</span>        <span class="nx">message</span> <span class="o">=</span> <span class="nx">object</span><span class="p">.</span><span class="nx">name</span> <span class="o">+</span> <span class="s1">&#39; acquired&#39;</span><span class="p">;</span>
+    <span class="nx">toast</span><span class="p">(</span><span class="nx">message</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+
+<div class="codehilite"><pre><span></span><span class="nx">global</span><span class="p">.</span><span class="nx">gAddInv</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">object</span><span class="p">,</span> <span class="nx">message</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="k">typeof</span> <span class="nx">object</span> <span class="o">==</span> <span class="s1">&#39;string&#39;</span><span class="p">)</span>
+        <span class="nx">object</span> <span class="o">=</span> <span class="nx">lObject</span><span class="p">(</span><span class="nx">object</span><span class="p">);</span>
+    <span class="c1">// Test comment</span>
+    <span class="nx">Game</span><span class="p">.</span><span class="nx">inventory</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="nx">object</span><span class="p">);</span>
+    <span class="k">if</span> <span class="p">(</span><span class="k">typeof</span> <span class="nx">message</span> <span class="o">===</span> <span class="s1">&#39;undefined&#39;</span><span class="p">)</span>
+        <span class="nx">message</span> <span class="o">=</span> <span class="nx">object</span><span class="p">.</span><span class="nx">name</span> <span class="o">+</span> <span class="s1">&#39; acquired&#39;</span><span class="p">;</span>
+    <span class="nx">toast</span><span class="p">(</span><span class="nx">message</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+
+<p><code>javascript linenos=true linenostart=42 hl_lines="43-44 50" title="An Example Code Block"
+global.gAddInv = function(object, message) {
+    if (typeof object == 'string')
+        object = lObject(object);
+    // Test comment
+    Game.inventory.add(object);
+    if (typeof message === 'undefined')
+        message = object.name + ' acquired';
+    toast(message);
+}</code></p></description>
+            
+            <pubDate>Mon, 03 Jan 2022 00:00:00 </pubDate>
+            <link>https://tedvalson.github.io/NovelTea-sitetest/</link>
+            <guid isPermaLink="true">https://tedvalson.github.io/NovelTea-sitetest/</guid>
+        </item>
+        
+    </channel>
+</rss>

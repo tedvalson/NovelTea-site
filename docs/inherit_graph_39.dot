@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="sj::JSON::JSONConstWrapper\l\< Container \>",height=0.2,width=0.4,color="black",URL="$classsj_1_1_j_s_o_n_1_1_j_s_o_n_const_wrapper.htm",tooltip=" "];
+}

@@ -1,0 +1,15 @@
+digraph "include/NovelTea/GUI" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_52c2ed606da51a5aae4b083c568b1a72 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="NovelTea" fontname="Helvetica", fontsize="10", URL="dir_52c2ed606da51a5aae4b083c568b1a72.htm"]
+  subgraph clusterdir_26eb908cb03b21fa4987bcdd8f03fa69 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_26eb908cb03b21fa4987bcdd8f03fa69.htm"];
+    dir_26eb908cb03b21fa4987bcdd8f03fa69 [shape=plaintext label="GUI"];
+  dir_c5565b6f79c415b3b92fe1c05235d656 [shape=box label="Icon" fillcolor="white" style="filled" URL="dir_c5565b6f79c415b3b92fe1c05235d656.htm"];
+  dir_9821db6cce2ca4ea28c391f7c7009dc2 [shape=box label="TextLog" fillcolor="white" style="filled" URL="dir_9821db6cce2ca4ea28c391f7c7009dc2.htm"];
+  }
+  }
+}

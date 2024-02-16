@@ -1,0 +1,26 @@
+var class_novel_tea_1_1_dialogue_renderer =
+[
+    [ "DialogueRenderer", "class_novel_tea_1_1_dialogue_renderer.htm#a2be7ce6618cf62afabb69f988c65429a", null ],
+    [ "~DialogueRenderer", "class_novel_tea_1_1_dialogue_renderer.htm#ad96882018fc7a2abfa7916905df64453", null ],
+    [ "applyChanges", "class_novel_tea_1_1_dialogue_renderer.htm#a37d5898744e363e66ac00f4ece260989", null ],
+    [ "changeLine", "class_novel_tea_1_1_dialogue_renderer.htm#ae7b64c9999e5b28bfb4ffaaa8d3de27f", null ],
+    [ "continueToNext", "class_novel_tea_1_1_dialogue_renderer.htm#ae0e5e353b510f346208a5463f211dd21", null ],
+    [ "draw", "class_novel_tea_1_1_dialogue_renderer.htm#ab499c4ebeb390c4c653946b26e3f9fbf", null ],
+    [ "getFontSizeMultiplier", "class_novel_tea_1_1_dialogue_renderer.htm#ae1fe4e7f2c09e60d787aac88a9b2f400", null ],
+    [ "getScroll", "class_novel_tea_1_1_dialogue_renderer.htm#ad35ee65231d22e40ca978e63d96289b3", null ],
+    [ "getScrollSize", "class_novel_tea_1_1_dialogue_renderer.htm#a462875e240f4f1e38e983c53ba803fcb", null ],
+    [ "getSize", "class_novel_tea_1_1_dialogue_renderer.htm#ae0696c7f31d69ddac26ace2177dba210", null ],
+    [ "hide", "class_novel_tea_1_1_dialogue_renderer.htm#a277a14e5e12c1ed1f730db9ec952132f", null ],
+    [ "processEvent", "class_novel_tea_1_1_dialogue_renderer.htm#a9524cc979e991a8d7916637bbfdb45df", null ],
+    [ "processLines", "class_novel_tea_1_1_dialogue_renderer.htm#a42ddefb8163ce45baaf7efc1db800779", null ],
+    [ "processSelection", "class_novel_tea_1_1_dialogue_renderer.htm#afbe5aee8c152c3f4455c8a12a0c897f0", null ],
+    [ "repositionButtons", "class_novel_tea_1_1_dialogue_renderer.htm#a8230a82b24aafaf3b0750f8f66c60b73", null ],
+    [ "repositionText", "class_novel_tea_1_1_dialogue_renderer.htm#af42cb2ebc5f4b656de5f1b103aed0fd0", null ],
+    [ "reset", "class_novel_tea_1_1_dialogue_renderer.htm#ae025d63457fb74a355ef7c5fb36fa415", null ],
+    [ "setDialogueCallback", "class_novel_tea_1_1_dialogue_renderer.htm#a563d5d207a32856311f72652acefb199", null ],
+    [ "setFontSizeMultiplier", "class_novel_tea_1_1_dialogue_renderer.htm#acfd72cd129aad7cae700c672efc7e025", null ],
+    [ "setScroll", "class_novel_tea_1_1_dialogue_renderer.htm#ac8aebab6f6bfeb0084e5888fef884bcc", null ],
+    [ "setSize", "class_novel_tea_1_1_dialogue_renderer.htm#a5ece7f5869be064a8bf8efd59b603efc", null ],
+    [ "show", "class_novel_tea_1_1_dialogue_renderer.htm#ad5476d1e08f369f181591b54ab942f2f", null ],
+    [ "update", "class_novel_tea_1_1_dialogue_renderer.htm#a30494a7f20d3ae0bac9becb87662fe78", null ]
+];

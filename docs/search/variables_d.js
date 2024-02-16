@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['object_2014',['object',['../struct_novel_tea_1_1_object_item.htm#a15bee299595a9ad5e4621ddaa2d6dacf',1,'NovelTea::ObjectItem::object()'],['../struct_novel_tea_1_1_event.htm#afe1af1623450b18051eb6ba7bcfcf6db',1,'NovelTea::Event::object()']]],
+  ['object_2015',['Object',['../namespace_novel_tea_1_1_i_d.htm#ae84772a4a70538c9896020483e03ffd1',1,'NovelTea::ID']]],
+  ['objectexists_2016',['objectExists',['../struct_novel_tea_1_1_active_text_segment_1_1_segment.htm#a158a89733e5675efa2a6f2c8b445e1ae',1,'NovelTea::ActiveTextSegment::Segment']]],
+  ['objectid_2017',['objectId',['../struct_novel_tea_1_1_inventory_item.htm#a21a3f0d36c5de046d010c0fb065b1a90',1,'NovelTea::InventoryItem::objectId()'],['../struct_novel_tea_1_1_text_properties.htm#a3e7ea384fa0e35f4631b0d1e6884bddf',1,'NovelTea::TextProperties::objectId()']]],
+  ['objectidname_2018',['objectIdName',['../struct_novel_tea_1_1_active_text_segment_1_1_segment.htm#a19539edda7fd763b63a0241e23adb842',1,'NovelTea::ActiveTextSegment::Segment']]],
+  ['objectlocations_2019',['objectLocations',['../namespace_novel_tea_1_1_i_d.htm#a1bb06bb846ca6af4efb3cb2680d7ef52',1,'NovelTea::ID']]],
+  ['opentabindex_2020',['openTabIndex',['../namespace_novel_tea_1_1_i_d.htm#a062bc13777dfebf6597461d2b3b81719',1,'NovelTea::ID']]],
+  ['opentabs_2021',['openTabs',['../namespace_novel_tea_1_1_i_d.htm#a93f7956165a5bc53732494b3b7c7a0af',1,'NovelTea::ID']]],
+  ['options_2022',['options',['../struct_novel_tea_1_1_state_event_1_1_dialogue_event.htm#a1395952b2bb26f92b361715d4a7b741f',1,'NovelTea::StateEvent::DialogueEvent']]],
+  ['origin_5fx_2023',['ORIGIN_X',['../class_novel_tea_1_1_tween_transformable.htm#a4488ca592901a607728bc67697c9bccd',1,'NovelTea::TweenTransformable']]],
+  ['origin_5fxy_2024',['ORIGIN_XY',['../class_novel_tea_1_1_tween_transformable.htm#ae2d9024961e54cebddb4f8437cc78ae3',1,'NovelTea::TweenTransformable']]],
+  ['origin_5fy_2025',['ORIGIN_Y',['../class_novel_tea_1_1_tween_transformable.htm#ac0ad7cc62481ab2f806cc27caf7c6af4',1,'NovelTea::TweenTransformable']]],
+  ['outline_5fcolor_5falpha_2026',['OUTLINE_COLOR_ALPHA',['../class_novel_tea_1_1_tween_shape.htm#ad50922f4209fe292b1fb312f2f141710',1,'NovelTea::TweenShape']]],
+  ['outline_5fcolor_5frgb_2027',['OUTLINE_COLOR_RGB',['../class_novel_tea_1_1_tween_shape.htm#aec2f46a4caf05339720840166d0c6511',1,'NovelTea::TweenShape']]],
+  ['outline_5fthickness_2028',['OUTLINE_THICKNESS',['../class_novel_tea_1_1_tween_shape.htm#ade7468ea258e85e8129c39471af4e9f3',1,'NovelTea::TweenShape']]],
+  ['outlinecolor_2029',['outlineColor',['../struct_novel_tea_1_1_text_properties.htm#a872c14e6129ba306987215b3ba812aa7',1,'NovelTea::TextProperties']]],
+  ['outlinethickness_2030',['outlineThickness',['../struct_novel_tea_1_1_text_properties.htm#a3c15049a2ceff51ba87428d9af51cda7',1,'NovelTea::TextProperties']]]
+];
